@@ -1,0 +1,4 @@
+interface:
+  display_name: "As-built architecture"
+  short_description: "Trace real systems into visual architecture guides"
+  default_prompt: "Use $as-built-architecture to guide me through creating or refreshing this repository's visual architecture, with input dialogs for open choices, source-linked components, complete workflows and clear current limits."
