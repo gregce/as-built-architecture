@@ -1,6 +1,6 @@
 ---
 name: as-built-architecture
-description: Create or refresh visual as-built architecture documentation from a repository's actual implementation, including ASCII Markdown guides and interactive offline HTML explorers. Use to explain built components, end-to-end workflows, execution gates, persistence, current gaps or architecture-based product areas. Includes guided input dialogs and deterministic handling of existing architecture files. Not for designing a future architecture or making a generic code summary.
+description: Create or refresh visual as-built architecture documentation from a repository's actual implementation, including ASCII Markdown guides and interactive offline HTML explorers. Use to explain built components, end-to-end workflows, execution gates, persistence and current gaps. Includes guided input dialogs and deterministic handling of existing architecture files. Not for designing a future architecture or making a generic code summary.
 license: Apache-2.0
 ---
 
@@ -65,7 +65,7 @@ Build journeys around real tasks, including the useful result's return to the br
 
 Offer the reader a compact component map and one consequential finding before investing in the final rendering, as described in the interaction reference. When the brief is already precise, this can be an update rather than another question.
 
-Propose product areas only when requested or established by the reader's job. Name responsibility, files, inputs, outputs, exclusions and neighbors. Label ownership as proposed. Shared schema and cross-process contracts still need coordinated changes.
+Describe existing technical responsibilities and state ownership from source evidence. Propose product squads, team assignments or new ownership boundaries only when the user explicitly requests them. Do not infer that scope from the reader's role or a one-off exercise in a previous session.
 
 ## Create or refresh the artifacts
 

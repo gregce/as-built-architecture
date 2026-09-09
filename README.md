@@ -28,8 +28,8 @@ Or supply the brief directly:
 
 ```text
 Use $as-built-architecture to explain this repo from installation to the
-returned result. Create Markdown and an offline HTML explorer, and suggest
-product areas for dividing the work.
+returned result. Create Markdown and an offline HTML explorer, including
+failure paths, recovery and current limits.
 ```
 
 The skill uses the active harness's input dialogs when available. It asks about unanswered choices, shows findings before decisions and preserves instructions already given. Other skill-compatible harnesses can use their equivalent invocation and question tools.
@@ -40,7 +40,6 @@ The skill uses the active harness's input dialogs when available. It asks about 
 - walkthroughs from setup or intent to the useful result and its return path
 - explanations of checks, refusals, failure paths and recovery
 - a clear distinction between source, component tests and accepted live behavior
-- optional proposed product area boundaries
 - a record that makes later source drift and artifact edits visible
 
 The HTML works offline by default. Its controls explain the system; they do not connect to it or run commands.

@@ -22,7 +22,7 @@ Useful first questions, only when unanswered:
 
 | Missing decision | Example dialog | Suggested options |
 | --- | --- | --- |
-| Reader's job | What should this help you understand first? | Full workflow; operation and recovery; product area ownership |
+| Reader's job | What should this help you understand first? | Full workflow; operation and recovery; components and data flow |
 | Deliverable | Which architecture artifacts should I create or refresh? | Markdown and HTML; HTML only; Markdown only |
 | Existing design | How should I treat the existing explorer? | Refresh in place; preserve it and create a separate view; rebuild its presentation |
 
@@ -55,7 +55,7 @@ For a broad brief, an optional refinement dialog can ask:
 
 > The map currently covers browser, command service, worker and artifact store. The worker supports retry, but its production launcher does not enable it. Where should I add the most detail?
 
-Suggested options might be “Keep the balanced overview”, “Expand failure and recovery” and “Expand ownership contracts”. Derive these from the actual source. If the user's scope is already precise, state the model and proceed without another dialog.
+Suggested options might be “Keep the balanced overview”, “Expand failure and recovery” and “Expand component interfaces”. Derive these from the actual source. If the user's scope is already precise, state the model and proceed without another dialog.
 
 The preview is a factual review opportunity. Do not demand human approval of every component or treat an optional response as the only way to finish authorized work.
 

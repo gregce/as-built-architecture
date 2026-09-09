@@ -9,11 +9,10 @@ Use the views the system needs. These patterns are not a mandatory page count:
 | What runs | Choose a boundary and concrete case | Why does work proceed, change route or stop? |
 | State and recovery | Inspect ownership and recovery diagrams | What survives and what needs reconciliation? |
 | Built and remaining | Compare source, evidence and open gates | What is available at this snapshot? |
-| Product areas | Select a proposed area and follow component links | Where could ownership be divided? |
 
 The map is the main explanatory object. Use location or authority regions, labeled handoffs and a visible distinction for unconnected paths. A diagram must not imply an implemented library runs in production.
 
-Each selected component needs its job, a local flow, input/output, execution owner, limits and source links. Include a way back to the selected node. Link component IDs from steps and area views so the reader can move between explanations.
+Each selected component needs its job, a local flow, input/output, execution owner, limits and source links. Include a way back to the selected node. Link component IDs from walkthrough steps and related views so the reader can move between explanations.
 
 A decision worksheet explains existing rules. Say it neither invokes the product nor inspects live state. Name earlier gates that are assumed to pass. Derive cases from code branches rather than a speculative simulation.
 
@@ -84,7 +83,7 @@ Use the environment's supported browser tool and instructions. Exercise the real
 - every view, component and return control
 - all steps and alternative journeys, including first/last boundaries
 - every gate category and case, including refusal and uncertainty
-- component, step and area cross-links
+- component, step and other cross-links
 - detailed hash open/reload and selection retained after tab return
 - keyboard activation followed by continued arrow-key navigation
 - desktop/mobile, supported themes and reduced motion
