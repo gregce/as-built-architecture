@@ -46,6 +46,19 @@ The helper code needs no API keys or network access. Installation downloads the 
 repository. See the [installer reference](https://github.com/vercel-labs/skills#install-a-skill)
 for additional agents, scopes and options.
 
+## Recommended model
+
+We recommend using the latest frontier reasoning and coding model available in your
+agent, such as [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra)
+or [Claude Fable 5.1](https://platform.claude.com/docs/en/models/fable-5-1/overview)
+(examples current in September 2026). Architecture work requires tracing behavior
+across files, resolving conflicting evidence and producing a clear visual explanation.
+The deterministic helpers handle discovery, fingerprints and structural checks; the
+model supplies the architectural judgment.
+
+Select the model in your coding agent before invoking the skill. This recommendation
+is optional: the skill works with other capable models supported by your agent.
+
 ## Get started
 
 Open the product repository in your coding agent and ask:
