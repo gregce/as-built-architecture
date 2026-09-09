@@ -2,6 +2,11 @@
 name: as-built-architecture
 description: Create or refresh visual as-built architecture documentation from a repository's actual implementation, including ASCII Markdown guides and interactive offline HTML explorers. Use to explain built components, end-to-end workflows, execution gates, persistence and current gaps. Includes guided input dialogs and deterministic handling of existing architecture files. Not for designing a future architecture or making a generic code summary.
 license: Apache-2.0
+compatibility: Requires an Agent Skills-compatible coding agent with repository file and command tools, Git, and Python 3.10 or later. Input dialogs and browser tools improve interaction and verification but are optional. Helpers use the Python standard library and require no network access.
+metadata:
+  author: gregce
+  version: "0.1.0"
+  repository: https://github.com/gregce/as-built-architecture
 ---
 
 # As-built architecture

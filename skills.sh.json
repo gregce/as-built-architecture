@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Architecture",
+      "description": "Source-linked architecture guides, complete workflows and repeatable documentation refreshes.",
+      "skills": ["as-built-architecture"]
+    }
+  ]
+}
